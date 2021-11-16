@@ -34,7 +34,7 @@ main {
 
 main h1 {
     color: #ffffff;
-    font-size: 3rem;
+    font-size: 2rem;
     margin-bottom: 3rem;
     text-align: center;
 }
@@ -109,6 +109,10 @@ main form input {
     font-size: 1rem;
     border: 1px solid #040B18;
     border-radius: 8px;
+}
+
+.possible-login{
+    padding: 1px;
 }
 
 main form input[type="submit"] {
