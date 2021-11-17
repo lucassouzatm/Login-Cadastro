@@ -39,36 +39,36 @@ main h1 {
     text-align: center;
 }
 
-main.social-media {
+.midias-sociais {
     display: flex;
     align-content: center;
 }
 
-main .social-media a {
+.midias-sociais a {
     text-decoration: none;
 }
 
-main .social-media img {
+.midias-sociais img {
     width: 36px;
     margin-left: 3rem;
 }
 
-main .social-media a:first-child img {
+.midias-sociais a:first-child img {
     margin-left: 0;
 }
 
-main .alternative {
+.alternativo {
     margin-top: 1rem;
 }
 
-main .alternative span {
+.alternativo span {
     font-size: 1.1rem;
     font-weight: 400;
     color: rgba(255, 255, 255, 0.3);
     position: relative;
 }
 
-main .alternative span::before, main .alternative span::after {
+.alternativo span::before, main .alternativo span::after {
     position: absolute;
     content: '';
     height: 1px;
@@ -78,27 +78,27 @@ main .alternative span::before, main .alternative span::after {
     background: rgba(255, 255, 255, 0.3);
 }
 
-main .alternative span::after {
+.alternativo span::after {
     left: 50px;
 }
 
-main form {
+form {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-main form label {
+form label {
     display: flex;
     flex-direction: column;
 }
 
-main form label span {
+form label span {
     font-size: 1.1rem;
     margin-top: 2rem;
 }
 
-main form input {
+form input {
     background: #161923;
     width: 300px;
     height: 50px;
@@ -112,10 +112,10 @@ main form input {
 }
 
 .possible-login{
-    padding: 1px;
+    margin: 1px;
 }
 
-main form input[type="submit"] {
+form input[type="submit"] {
     cursor: pointer;
     width: 100%;
     margin-top: 2rem;
@@ -127,11 +127,11 @@ main form input[type="submit"] {
     transition: all 1s ease-in-out;
 }
 
-main form input[type="submit"]:hover {
+form input[type="submit"]:hover {
     background: #30cfd0;
 }
 
-@media only screen and (min-width: 900px) and (max-width: 1200px) {
+/*@media only screen and (min-width: 900px) and (max-width: 1200px) {
     section.images img {
         width: 110%;
     }
@@ -157,7 +157,7 @@ main form input[type="submit"]:hover {
         font-size: 2rem;
     }
 
-    main .alternative span {
+    main .alternativo span {
         font-size: 0.8rem;
     }
 
